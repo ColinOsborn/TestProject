@@ -27,6 +27,9 @@ export default class TestProject extends Component {
           Press Cmd+R to reload,{'\n'}
           Cmd+D or shake for dev menu
         </Text>
+        <Text style={styles.instructions}>
+          Lets add in some more text to see how things work
+        </Text>
       </View>
     );
   }
@@ -37,7 +40,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#84bd00',
+    backgroundColor: '#FFFFFF',
   },
   welcome: {
     fontSize: 20,
